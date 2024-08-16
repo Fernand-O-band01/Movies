@@ -1,0 +1,167 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+body{
+    display: flex;
+    justify-items: center;
+    align-items: center;
+    flex-direction: column;
+    height: 100vh;
+    background-color: #F5F5F5;
+}
+.container{
+    display: flex;
+    justify-content: flex-start;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+.movies{
+    padding: 50px 0 150px 0;
+}
+.swiper{
+    width: 100%;
+}
+.swiper-slide{
+    background-position: center;
+    background-size: cover;
+    width: 250px;
+}
+.swiper-slide img{
+    display: block;
+    width: 100%;
+}
+
+@media(max-width:991px){
+    body{
+        min-height: 0vh;
+    }
+    .movies{
+        padding: 30px;
+    }
+}
+.A-links{
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+    width: 65%;
+    height: 30px;
+}
+.Divs-A{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    width: 65%;
+    height: 100%;
+
+}
+.Divs-A a{
+    margin: 14px;
+    color: black;
+    text-decoration: none;
+    font-family: LabradorB-Bold;
+    font-size: 20px;
+}
+@font-face{
+    font-family: LabradorB-Bold;
+    src:url(LabradorB-Bold.ttf)
+}
+.Divs-B{
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    width: 35%;
+    height: 100%;
+}
+.Divs-B a{
+    margin: 14px;
+    color: black;
+    text-decoration: none;
+    font-family: LabradorB-Bold;
+    font-size: 20px;
+}
+.imgA{
+    height: 25px;
+    width: 25px;
+    margin: 5px;
+    cursor: pointer;
+}
+.imgA.imgB{
+    cursor: pointer;
+    width:20px;
+}
+.B-Box{
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    width: 65%;
+    height: 90px;
+    margin: 10px 0 50px 0 ;
+
+    font-family: LabradorB-Bold;
+}
+.EbayLogo{
+    height: 65px;
+    width: 160px;
+    margin: 0 30px 0 0;
+}
+
+.Category{
+    font-size: 20px;
+}
+.Box-a{
+    display: flex;
+    align-items: center;
+    width: 22%;
+    height: 90px;
+
+    padding: 10px;
+}
+.Box-b{
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    width: 65%;
+    height: 90px;
+
+}
+.Categories{
+    height: 55px;
+    border-radius: 0 40px 40px 0 ;
+    width: 15%;
+    background-color: #ffffff;
+    border: 3px solid;
+    cursor: pointer;
+}
+input{
+    height: 55px;
+    width: 90%;
+    border-radius: 40px 0 0 40px;
+    border: 3px solid;
+}
+.Box-c{
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    width: 22%;
+    height: 90px;
+
+}
+.Search{
+    height: 55px;
+    width: 55%;
+    background-color: rgb(48, 83, 239);
+    border-radius: 30px;
+    color: white;
+    font-size: 20px;
+    cursor: pointer;
+    border: 0;
+    box-shadow: 0 3px 0 #ddd;
+    margin: 0 10px;
+}
+.Adv{
+    font-size: 20px;
+    color: #767676;
+}
